@@ -2,22 +2,29 @@
 /* Layout */
 body {margin: 0; padding: 0;}
 #centrering {width: 900px; margin-right: auto; margin-left: auto;}
-#sidhuvud {background: #226078; padding: 10px;}
-#kolumn1 {float: left; width: 200px; background: #0776A0;}
-#kolumn2 {float: left; width: 700px; background: #62B1D0;}
-#sidfot, .push {background: #226078;}
+#sidhuvud {background: #226078; padding: 10px;}         /* Överst på sidan*/
+#kolumn1 {float: left; width: 200px; background: #0776A0;} /* Menykolumnen */
+#kolumn2 {float: left; width: 700px; background: #62B1D0;}  /* Innehållet */
+#sidfot, .push {background: #226078;}   /* Text längst ned på sidan*/
+#kolumn2 ul{list-style-type: none;}     /* Tar bort punkterna från listan*/
 
 
+/* Typsnitt */
+body { font-family: Verdana; font-size: 15px} /* De rubriker och text som inte är listade nedan får detta*/
+li {font-family: Times; font-size: 14px;}   /* Typsnitt för olika texter och rubriker samt storlek och radavstånd */
+p {font-family: Times; font-size: 14px; line-height: 6px;}
+dd {font-family: Times; font-size: 14px; line-height: 15px;} /* line height är radavstånd*/
+a {font-family: Verdana; font-style: italic; font-weight: 900; font-size: 14px;} /*Italic är kursiv, font weight för texten tjockare*/
+h3 {font-family: Times; font-size: 25px;}
 
 /*Meny */
-#meny{margin: 0; padding: 0; width: 18em; list-style-type: none; font-size: 70%; background: #38B2CE; border-bottom: 1px solid #996666;}
+#meny{margin: 5; padding: 0; width: 19em; list-style-type: none; font-size: 100%; background: #38B2CE; border-bottom: 1px solid #996666;}
 
 #meny a{ display: block; width: auto; height: 100%; padding-left: 0.25em; padding-top: 0.25em; padding-bottom: 1em; text-decoration: none;
 border-top: 1px solid #226078; border-right: 1px solid #226078; border-left: 1px solid #226078;}
-#meny ul{list-style-type: none;}
-#meny a:link{color: #ffffff;}
-#meny a:visited{color: #FFD673;}
-#meny a:hover{background: #226078;}
-#meny a:active{background:#226078;}
-#meny #current{background: #FFCC66; color: #000000;}
+#meny ul{list-style-type: none;}    /* Tar bort punkterna i ul listan */
+#meny a:link{color: #ffffff;}       /* Länkens färg */
+#meny a:visited{color: #FFD673;}    /* Besökta länkfärgen */
+#meny a:hover{background: #226078;} /* Bakgrundsfärgen menylänkten får när man håller musen över den */
+#meny #current{background: #FFCC66; color: #000000;} /* Den aktiva länkens bakgrundsfärg /*
 
