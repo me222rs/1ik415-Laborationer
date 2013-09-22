@@ -26,5 +26,7 @@ border-top: 1px solid #226078; border-right: 1px solid #226078; border-left: 1px
 #meny a:link{color: #ffffff;}       /* Länkens färg */
 #meny a:visited{color: #FFD673;}    /* Besökta länkfärgen */
 #meny a:hover{background: #226078;} /* Bakgrundsfärgen menylänkten får när man håller musen över den */
-#meny #current{background: #FFCC66; color: #000000;} /* Den aktiva länkens bakgrundsfärg /*
+#meny #current{background: #FFCC66; color: #000000;} /* Den aktiva länkens bakgrundsfärg */
 
+/* Bilder */
+h3 :before {content: url(pics/LogoWebb.png)}
