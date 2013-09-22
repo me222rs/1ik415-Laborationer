@@ -2,9 +2,9 @@
 /* Layout */
 body {margin: 0; padding: 0;}
 #centrering {width: 900px; margin-right: auto; margin-left: auto;}
-#sidhuvud {background: #226078; padding: 10px;}         /* Överst på sidan*/
+#sidhuvud {background-image: url(pics/Panorama.jpg); padding: 100px;}         /* Överst på sidan*/
 #kolumn1 {float: left; width: 200px; background: #0776A0;} /* Menykolumnen */
-#kolumn2 {float: left; width: 700px; background: #62B1D0;}  /* Innehållet */
+#kolumn2 {float: left; width: 700px; background-image: url(pics/hav.jpg);background-repeat: repeat-y}  /* Innehållet */
 #sidfot, .push {background: #226078;}   /* Text längst ned på sidan*/
 #kolumn2 ul{list-style-type: none;}     /* Tar bort punkterna från listan*/
 
