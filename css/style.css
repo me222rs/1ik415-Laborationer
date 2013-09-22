@@ -9,17 +9,23 @@ body {margin: 0; padding: 0;}
 #kolumn2 ul{list-style-type: none;}     /* Tar bort punkterna från listan*/
 
 
+
+
+
 /* Typsnitt */
 body { font-family: Verdana; font-size: 15px} /* De rubriker och text som inte är listade nedan får detta*/
 li {font-family: Times; font-size: 14px;}   /* Typsnitt för olika texter och rubriker samt storlek och radavstånd */
-p {font-family: Times; font-size: 14px; line-height: 6px;}
+p {font-family: Times; font-size: 14px; line-height: 15px;}
 dd {font-family: Times; font-size: 14px; line-height: 15px;} /* line height är radavstånd*/
 a {font-family: Verdana; font-style: italic; font-weight: 900; font-size: 14px;} /*Italic är kursiv, font weight för texten tjockare*/
 h3 {font-family: Times; font-size: 25px;}
 
+
+
+
+
 /*Meny */
 #meny{margin: 5; padding: 0; width: 19em; list-style-type: none; font-size: 100%; background: #38B2CE; border-bottom: 1px solid #996666;}
-
 #meny a{ display: block; width: auto; height: 100%; padding-left: 0.25em; padding-top: 0.25em; padding-bottom: 1em; text-decoration: none;
 border-top: 1px solid #226078; border-right: 1px solid #226078; border-left: 1px solid #226078;}
 #meny ul{list-style-type: none;}    /* Tar bort punkterna i ul listan */
@@ -30,3 +36,4 @@ border-top: 1px solid #226078; border-right: 1px solid #226078; border-left: 1px
 
 /* Bilder */
 h3 :before {content: url(pics/LogoWebb.png)}
+#LoremIpsum {float: left; width: 200px;}
