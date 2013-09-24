@@ -1,7 +1,8 @@
 
 /* Layout */
-body {margin: 0; padding: 0;}
-#centrering {width: 900px; margin-right: auto; margin-left: auto;}
+body {background-image: url(pics/texture.jpg); background-repeat: repeat-y; margin: 0; padding: 0;} /* Bild som ligger typ bakom allt */
+
+#centrering {width: 900px; margin-right: auto; margin-left: auto;}  /* Centrerar sidan så att den hamnar i mitten av skärmen*/
 #sidhuvud {background-image: url(pics/Panorama.jpg); padding: 100px;}         /* Överst på sidan*/
 #kolumn1 {float: left; width: 200px; background: #0776A0;} /* Menykolumnen */
 #kolumn2 {float: left; width: 700px; background-image: url(pics/hav.jpg);background-repeat: repeat-y}  /* Innehållet */
@@ -18,16 +19,16 @@ p {font-family: Times; font-size: 14px; line-height: 15px;}
 dd {font-family: Times; font-size: 14px; line-height: 15px;} /* line height är radavstånd*/
 a {font-family: Verdana; font-style: italic; font-weight: 900; font-size: 14px;} /*Italic är kursiv, font weight för texten tjockare*/
 h3 {font-family: Times; font-size: 25px;}
-table {font-family: Verdana; font-size: 25px; background-image: url(pics/texture.jpg);color:#FFFFFF;}
+table {font-family: Verdana; font-size: 25px; background-image: url(pics/texture.jpg);color:#FFFFFF;} /* Alla tabeller kommer att få dessa attribut */
 
 
 
 
 /*Meny */
-#meny{margin: 5; padding: 0; width: 19em; list-style-type: none; font-size: 100%; background: #38B2CE; border-bottom: 1px solid #996666;}
-#meny a{ display: block; width: auto; height: 100%; padding-left: 0.25em; padding-top: 0.25em; padding-bottom: 1em; text-decoration: none;
-border-top: 1px solid #226078; border-right: 1px solid #226078; border-left: 1px solid #226078;}
-#meny ul{list-style-type: none;}    /* Tar bort punkterna i ul listan */
+#meny{margin: 5; padding-left: 0; width: 13.4em; list-style-type: none; font-size: 100%; background: #38B2CE; border-bottom: 1px solid #996666;}
+#meny a{ display: block; width: auto; height: 100%; padding-left: 0.25em; padding-top: 0.25; padding-bottom: 1em; text-decoration: none;
+border-top: 1px solid #226078; border-right: 1px solid #226078; border-left: 1px solid #226078; border-bottom: 1px solid #226078;}
+#meny ul{list-style-type: none; padding-left: 0;}    /* Tar bort punkterna i ul listan */
 #meny a:link{color: #ffffff;}       /* Länkens färg */
 #meny a:visited{color: #FFD673;}    /* Besökta länkfärgen */
 #meny a:hover{background: #226078;} /* Bakgrundsfärgen menylänkten får när man håller musen över den */
@@ -35,4 +36,10 @@ border-top: 1px solid #226078; border-right: 1px solid #226078; border-left: 1px
 
 /* Bilder */
 h3 :before {content: url(pics/LogoWebb.png)}
-#LoremIpsum {float: left; width: 200px;}
+/*#LoremIpsum {float: left; width: 200px;}
+*/
+
+img.floatLeft { 
+    float: left; 
+    margin: 2px; 
+}
