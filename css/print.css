@@ -1,0 +1,24 @@
+body { font-family: Georgia, Times, serif; font-size: 10pt; color: #000000; background-color: #ffffff;}
+
+
+@media print { 
+#meny {display: none;} 
+}
+
+@media print { 
+#sidhuvud {display: none;} 
+}
+
+@media print { 
+#sidfot {display: none;} 
+}
+
+@media print{
+       a:after{content:" (" attr(href) ") ";font-size:0.8em;font-weight:normal;}
+}
+
+
+@media print{
+video {display:none;}
+}
+

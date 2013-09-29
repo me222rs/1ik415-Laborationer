@@ -6,3 +6,4 @@
 {"ts":1380194641606,"patch":[[{"diffs":[[0,"font-size: 2"],[-1,"5"],[1,"0"],[0,"px;}\r\n\r\n\r\n\r\n"]],"start1":1505,"start2":1505,"length1":25,"length2":25}]],"length":2533,"saved":false}
 {"ts":1380194794896,"patch":[[{"diffs":[[0,"20px;}\r\n"],[1,"legend {font-family: Verdana; font-style: bold;}"],[0,"\r\n\r\n\r\n/*"]],"start1":1516,"start2":1516,"length1":16,"length2":64}]],"length":2581,"saved":false}
 {"ts":1380194823414,"patch":[[{"diffs":[[0,"ont-"],[-1,"style: bold"],[1,"weight: 600"],[0,";}\r\n"]],"start1":1555,"start2":1555,"length1":19,"length2":19}]],"length":2581,"saved":false}
+{"ts":1380205181986,"patch":[[{"diffs":[[0,"weight: "],[-1,"6"],[1,"9"],[0,"00;}\r\n\r\n"]],"start1":1559,"start2":1559,"length1":17,"length2":17}]],"length":2581,"saved":false}

@@ -22,7 +22,7 @@ h3 {font-family: Times; font-size: 25px;}
 table {font-family: Verdana; font-size: 25px; background-image: url(pics/texture.jpg);color:#FFFFFF;} /* Alla tabeller kommer att få dessa attribut */
 label {font-family: Verdana; font-size: 20px;}
 legend {font-family: Verdana; font-weight: 900;}
-
+form {font-family: Verdana; font-size: 25px; background-image: url(pics/texture.jpg);color:#FFFFFF;}
 
 /*Meny */
 #meny{margin: 5; padding-left: 0; width: 13.4em; list-style-type: none; font-size: 100%; background: #38B2CE; border-bottom: 1px solid #996666;}
