@@ -1,0 +1,48 @@
+
+@media screen and (max-width: 481px){
+    #sidhuvud {width: 360px; padding:100px;}
+    #kolumn1 {width: 360px; } /* Menykolumnen */
+    #kolumn2 {width: 360px; } 
+    #centrering {width: 480px;}
+    #sidfot{display:none}
+.floatleft {max-width:50%;}
+
+html {overflow:hidden;}
+
+img {position: relative;
+	padding-bottom: 0;
+	padding-top: 0;
+	width: 40%;
+	overflow: hidden;}
+	
+table {width:360px; height:360px;}
+	
+video {position: relative;
+    width:360px;
+	padding-bottom: 0;
+	padding-top: 30px;
+	height: 100%;
+	overflow: hidden;}
+
+body {background-image:none;}
+
+
+#meny{width:360px; margin: 5; padding-left: 0; list-style-type: none; font-size: 100%; background: #38B2CE; border-bottom: 1px solid #996666;}
+#meny a{ display: block;  height: 100%; padding-left: 0; padding-top: 0.25; padding-bottom: 1em; text-decoration: none;
+border-top: 1px solid #226078; border-right: 1px solid #226078; border-left: 1px solid #226078; border-bottom: 1px solid #226078;}
+#meny ul{list-style-type: none; padding-left: 0;}    /* Tar bort punkterna i ul listan */
+#meny a:link{color: #ffffff;}       /* Länkens färg */
+#meny a:visited{color: #FFD673;}    /* Besökta länkfärgen */
+#meny a:hover{background:url(pics/sprite.png) no-repeat;
+   background-position: 0 -48px;} /* Bakgrundsfärgen menylänkten får när man håller musen över den */
+#meny #current{background: #FFCC66; color: #000000;} /* Den aktiva länkens bakgrundsfärg */
+
+#meny a{
+
+   padding-left:0;
+   background:none;
+   
+}
+
+
+}

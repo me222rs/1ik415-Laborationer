@@ -3,9 +3,9 @@
 body {background-image: url(pics/texture.jpg); background-repeat: repeat-y; margin: 0; padding: 0;} /* Bild som ligger typ bakom allt */
 
 #centrering {width: 900px; margin-right: auto; margin-left: auto;}  /* Centrerar sidan så att den hamnar i mitten av skärmen*/
-#sidhuvud {background-image: url(pics/Panorama.jpg); padding: 100px;}         /* Överst på sidan*/
-#kolumn1 {float: left; width: 200px; background: #0776A0;} /* Menykolumnen */
-#kolumn2 {float: left; width: 700px; background-image: url(pics/hav.jpg);background-repeat: repeat-y}  /* Innehållet */
+#sidhuvud {background-image: url(pics/Panorama.jpg); background-repeat: no-repeat; padding: 100px;}         /* Överst på sidan*/
+#kolumn1 {float: left; width: 20%; background: #0776A0;} /* Menykolumnen */
+#kolumn2 {float: left; width: 80%; background-image: url(pics/hav.jpg);background-repeat: repeat-y}  /* Innehållet */
 #kolumn2 ul{list-style-type: none;}     /* Tar bort punkterna från listan*/
 #sidfot {background: #226078; padding: 40px;}   /* Text längst ned på sidan*/
 
@@ -19,7 +19,7 @@ p {font-family: Times; font-size: 14px; line-height: 15px;}
 dd {font-family: Times; font-size: 14px; line-height: 15px;} /* line height är radavstånd*/
 a {font-family: Verdana; font-style: italic; font-weight: 900; font-size: 14px;} /*Italic är kursiv, font weight för texten tjockare*/
 h3 {font-family: Times; font-size: 25px;}
-table {font-family: Verdana; font-size: 25px; background-image: url(pics/texture.jpg);color:#FFFFFF;} /* Alla tabeller kommer att få dessa attribut */
+table {font-family: Verdana; background-image: url(pics/texture.jpg);color:#FFFFFF;} /* Alla tabeller kommer att få dessa attribut */
 label {font-family: Verdana; font-size: 20px;}
 legend {font-family: Verdana; font-weight: 900;}
 form {font-family: Verdana; font-size: 25px; background-image: url(pics/texture.jpg);color:#FFFFFF;}
@@ -31,15 +31,38 @@ border-top: 1px solid #226078; border-right: 1px solid #226078; border-left: 1px
 #meny ul{list-style-type: none; padding-left: 0;}    /* Tar bort punkterna i ul listan */
 #meny a:link{color: #ffffff;}       /* Länkens färg */
 #meny a:visited{color: #FFD673;}    /* Besökta länkfärgen */
-#meny a:hover{background: #226078;} /* Bakgrundsfärgen menylänkten får när man håller musen över den */
+#meny a:hover{background:url(pics/sprite.png) no-repeat;
+   background-position: 0 -48px;} /* Bakgrundsfärgen menylänkten får när man håller musen över den */
 #meny #current{background: #FFCC66; color: #000000;} /* Den aktiva länkens bakgrundsfärg */
+
+#meny a{
+   padding-left:35px;
+   background:url(pics/sprite.png) no-repeat;
+   background-position: 24 -48px;
+   
+   
+}
+
+
+
+
 
 /* Bilder */
 h3 :before {content: url(pics/LogoWebb.png)}
 /*#LoremIpsum {float: left; width: 200px;}
 */
 
-img.floatLeft { 
+/*img.floatLeft { 
     float: left; 
     margin: 2px; 
+  */  
+    
+    
 }
+
+
+
+
+
+
+
