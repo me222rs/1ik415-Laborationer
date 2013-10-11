@@ -3,7 +3,7 @@
     #sidhuvud {width: 360px; padding:100px;}
     #kolumn1 {width: 360px; } /* Menykolumnen */
     #kolumn2 {width: 360px; } 
-    #centrering {width: 480px;}
+    #centrering {width: 360px;}
     #sidfot{display:none}
 .floatleft {max-width:50%;}
 
@@ -24,7 +24,7 @@ video {position: relative;
 	height: 100%;
 	overflow: hidden;}
 
-body {background-image:none;}
+
 
 
 #meny{width:360px; margin: 5; padding-left: 0; list-style-type: none; font-size: 100%; background: #38B2CE; border-bottom: 1px solid #996666;}
